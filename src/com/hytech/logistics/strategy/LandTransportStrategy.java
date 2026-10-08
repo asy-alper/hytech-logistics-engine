@@ -4,7 +4,7 @@ import com.hytech.logistics.model.Shipment;
 
 public class LandTransportStrategy implements TransportStrategy {
     
-    private static final double BASE_PRICE_PER_KG = 20.0; // Kara yolu daha ucuz ve sabittir.
+    private static final double BASE_PRICE_PER_KG = 20.0;
 
     @Override
     public double calculateCost(Shipment shipment) {
